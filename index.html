@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JS Assignment</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <h1>Interactive Web Page 🚀</h1>
+
+  <!-- Part 1: Event Handling -->
+  <button id="helloBtn">Click Me!</button>
+  <p id="helloMsg"></p>
+
+  <!-- Part 2: Interactive Elements -->
+  <!-- Dark Mode Toggle -->
+   <p>To switch this webpage to dark mode, click on the designated toggle button. This will 
+      change the background to a darker shade, enhancing visibility and reducing glare in 
+      low-light conditions.
+    </p>
+  <button id="toggleTheme">🌙 Toggle Dark Mode</button>
+  
+  <!-- Counter -->
+  <p>Counter Section: Click the buttons below to increase or decrease the counter value 
+    displayed.</p>
+  <p>Counter: <span id="counter">0</span></p>
+  <button id="increaseBtn">Increase</button>
+  <button id="decreaseBtn">Decrease</button>
+
+  <!-- Part 3: Form Validation -->
+  <h2>Sign Up Form</h2>
+  <form id="userForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <span class="error" id="nameError"></span>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <span class="error" id="emailError"></span>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    <span class="error" id="passwordError"></span>
+
+    <button type="submit">Submit</button>
+    <p id="formSuccess"></p>
+  </form>
+
+
+  <script src="script/script.js"></script>
+</body>
+</html>

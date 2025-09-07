@@ -1,0 +1,59 @@
+body.dark {
+  background: #222;
+  color: #fff;
+}
+
+
+/* Style the form container */
+form {
+  max-width: 400px;
+  margin: 20px auto;   /* Center form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+/* Style labels and inputs */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px; /* ✅ spacing between fields */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+button {
+  background: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Error message style */
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 5px;
+  display: block;
+}
+
+/* Success message style */
+#formSuccess {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
